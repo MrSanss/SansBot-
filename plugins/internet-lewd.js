@@ -1,4 +1,4 @@
-// lewd
+lewd
 import fetch from 'node-fetch'
 
 let handler = async(m, { conn }) => {
@@ -6,7 +6,7 @@ let handler = async(m, { conn }) => {
     await conn.sendFile(m.chat, img, 'lewn.png', '', m)
 }
 handler.help = ['lewd']
-handler.tags = ['internet']
+// handler.tags = ['internet']
 handler.command = /^lewd$/i
 export default handler
 function gr() {
