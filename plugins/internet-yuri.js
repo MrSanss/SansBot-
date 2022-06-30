@@ -6,7 +6,7 @@ let handler = async(m, { conn }) => {
     await conn.sendFile(m.chat, img, 'yuri.png', '', m)
 }
 handler.help = ['yuri']
-handler.tags = ['porn']
+//handler.tags = ['porn']
 handler.command = /^yuri$/i
 export default handler
 function gr() {
